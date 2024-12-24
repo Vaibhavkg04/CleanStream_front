@@ -6,9 +6,9 @@ import i3 from "../assets/images/admin.gif";
 // Import your MP4 file
 import Lottie from "lottie-react";
 
-import animationData from "../assets/animation/Admin.json";
-import animationuser from "../assets/animation/user.json";
-import animationworker from "../assets/animation/worker.json";
+import animationData from "./Admin.json";
+import animationuser from "./user.json";
+import animationworker from "./worker.json";
 
 import "./landing.css";
 import NavBar from "../Components/navbar";
