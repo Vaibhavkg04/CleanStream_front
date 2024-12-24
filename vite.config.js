@@ -1,7 +1,15 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
+	plugins: [],
+	resolve: {
+		alias: {
+			"@": "/src", // Example alias, adjust it to your project structure
+		},
+	},
+	build: {
+		json: {
+			stringify: true, // Make sure Vite can handle JSON correctly
+		},
+	},
+});
